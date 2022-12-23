@@ -1,0 +1,63 @@
+p{
+	border: 5px solid
+}
+
+div p:nth-of-type() {
+	border: 2px dashed #000;
+
+}
+div p:nth-of-type(2){
+
+}
+div p:nth-child(3){
+	border: 2px double #000;
+
+
+}
+div p:last-child{
+	border: 3px inset grey;
+}
+
+
+.filter{
+	width: 200px;
+	height: 200px;
+	/*background-color: red;*/
+/*	background-image: url('../img/naruto.jpg');*/
+	background-image: linear-gradient(rgba(65,45,127,1.00),rgba(31,128,127,1.00)) , url('../img/naruto.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.fm p{
+	background-color: blue;
+	border: none;
+
+}
+
+.fm p: nth-child{
+	border:  2px double grey;
+
+}
+.fm p: last-child{
+	border: 3px
+
+
+
+/*override*/
+
+
+/*stroke
+style
+color*/
+
+/*combinator*/
+
+/*tag to tag*/
+
+/*Pseudo class
+(:)
+:nth-child
+:nth-of-type
+:last-child
+:first_child*/

@@ -1,0 +1,39 @@
+.box1 , .box2{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #000;
+
+
+	/*1value
+	margin: 20px;
+	2value
+	margin: 50px 20px;
+	4value (top right bottom left)
+	margin: 20px 10px 30px 50px;*/
+
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+
+	/*padding: 50px;
+	padding:  20px 30px;
+	padding: 30px 10p 25px 50px;*/
+
+	margin-left: 15px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+
+}
+
+.box2{
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
